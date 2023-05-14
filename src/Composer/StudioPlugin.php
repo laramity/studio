@@ -6,7 +6,6 @@ use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use Composer\Repository\PathRepository;
 use Composer\Script\ScriptEvents;
 use Studio\Config\Config;
 

@@ -1,5 +1,5 @@
 {
-    "name": "franzl/studio",
+    "name": "laramity/franzl-studio",
     "description": "Develop your Composer libraries with style",
     "keywords": ["composer", "development", "workflow"],
     "type": "composer-plugin",
@@ -21,12 +21,10 @@
         "phpspec/phpspec": "^6.3 || ^7.0"
     },
     "replace": {
+        "franzl/studio": "self.version",
         "franzliedke/studio": "self.version"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.11.x-dev"
-        },
         "class": "Studio\\Composer\\StudioPlugin"
     },
     "bin": ["bin/studio"],
