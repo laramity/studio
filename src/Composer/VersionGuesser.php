@@ -13,6 +13,7 @@ namespace Studio\Composer;
 
 use Composer\Config;
 use Composer\Pcre\Preg;
+use Composer\Platform\Version;
 use Composer\Semver\VersionParser as SemverVersionParser;
 use Composer\Util\Git as GitUtil;
 use Composer\Util\Platform;
